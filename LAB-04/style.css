@@ -1,0 +1,85 @@
+/*Question 1*/
+
+/*Class selector*/
+.wrapper {
+    background-color: rgb(122, 220, 220);
+    margin: auto;
+    color: #333;
+    width: 95%;
+}
+
+/*Element Selector*/
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*Pseudo Class Selector*/
+li:nth-child(odd) {
+    font-weight: bold;
+}
+
+img {
+    width: 30%;
+    height: 31em;
+    padding-left: 3%;
+}
+
+/* ID Selector */
+#wrapper {
+    color: #000;
+}
+
+/*Question 2*/
+/* Adding new background image to enhance the page*/
+#unique,
+h3,
+ul {
+    background-image: url(bg1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Question 3*/
+/*manipulating the image that originally appeared in lab-1 i.e, img */
+img {
+    filter: sepia(35%) brightness(50%);
+    filter: opacity(100%);
+}
+
+/*Question 4*/
+/*making the image from lab 1 responsive */
+img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+/*Question 5*/
+/*setting the content as per mentioned in Question*/
+/*width to 80% , adding background color and border*/
+.wrapper {
+    width: 80%;
+    /* 80% of width */
+    background-color: hsl(168, 70%, 74%);
+    border: 5px solid #d4e332;
+    padding: 20px;
+}
+
+/*Question 6*/
+/* header image to 90% and center it in .wrapper */
+.wrapper {
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 90%;
+    /* 90% of the div.wrapper width */
+    display: block;
+    margin: 0 auto;
+    background-color: #d8de94;
+}
